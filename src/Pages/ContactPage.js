@@ -1,5 +1,5 @@
 import React from 'react'
-import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+
 import ContactItem from '../Components/ContactItem';
 import phone from '../img/phone.svg';
 import email from '../img/emailme.svg';
