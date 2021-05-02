@@ -1,4 +1,5 @@
 import React from 'react'
+import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import ContactItem from '../Components/ContactItem';
 import phone from '../img/phone.svg';
 import email from '../img/emailme.svg';
@@ -9,7 +10,7 @@ function ContactPage() {
     return (
         <div>
             <div className="title">
-                <Tittle title={'Contracts'} span={'About Me'} />
+                <Tittle title={'Contact'} span={'About Me'} />
             </div>
             <div className="ContactPage">
                 <div className="map-sect">
@@ -21,7 +22,7 @@ function ContactPage() {
                     <ContactItem icon={location} text1={'416/2 iqbal road,dhaka'} text2={'Bangladesh'} title={'Address'}/>
                 </div>
                <div style={{marginTop:"50px"}}>
-                   <form action="mailto:apurbopaul131@gmail.com" method="post" enctype="multipart/form" name="Email test form">
+               <form action="mailto:apurbopaul131@gmail.com" method="post" enctype="multipart/form" name="Email test form">
                        <p>Name:</p>
                        <input type="text" size="24" name="VisitorName"/>
                        <br/>

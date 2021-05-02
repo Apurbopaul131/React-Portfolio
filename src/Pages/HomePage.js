@@ -14,7 +14,7 @@ function HomePage() {
                     <span> Apurbo paul</span>
                 </h1>
                 <p className="h-sub-text">
-                I am a professional web developer. I am student of programming hero. I am a front end developer but I have also ideas in backend development. I feel very comfortable working with java script framework React. But if I need to work, I can learn any framework of java script in a short time. I learned MongoDB and Node to work in the backend. 
+                I am a professional web developer.I am a front end developer but I have also ideas in backend development. I feel very comfortable working with java script framework React. But if I need to work, I can learn any framework of java script in a short time. I learned MongoDB and Node to work in the backend. 
                 </p>
                 <div className="icons">
                    <a href="https://www.facebook.com/ratr.tr.9/" className="icon-holder" target="_blank">
